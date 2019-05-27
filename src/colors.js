@@ -31,7 +31,7 @@ export const getColors = async imgUrl => {
       })
     );
 
-    const result = await fetch(`http://${window.location.hostname}:8080/api/upload`, {
+    const result = await fetch(`https://common-colors.herokuapp.com/api/upload`, {
       method: 'post',
       body: formData
     }).then(res => res.json());
