@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+  background: #444;
+  transition: background 1s ease-out;
 }
 
 .App-logo {
@@ -9,7 +13,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.8));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
